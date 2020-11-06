@@ -1,0 +1,107 @@
+/* DEAFAULT STYLING FIX */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLING AND IMAGE */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(img/clouds.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+/* BACKGROUND STYLING*/
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(72, 153, 199, 0.4), rgba(61, 104, 197, 0.5));
+}
+
+/* HEADER STYLING */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+/* INPUT STYLING */
+header input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(69, 142, 194);
+    background-color: rgba(230, 232, 240, 0.5);
+    color: rgb(31, 31, 36);
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.2s ease-out;
+}
+
+/* COLOR CHANGE WHEN THE INPUT IS SELECTED */
+header input:focus {
+    background-color: rgba(230, 232, 240, 0.7);
+}
+
+/* MAIN STUFF */
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* CHOSEN CITY */
+.location .city {
+    color: rgba(230, 232, 240, 0.8);
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+/* CURRENT DATE */
+.location .date {
+    color: rgba(230, 232, 240, 0.8);
+    font-size: 18px;
+}
+
+/* CURRENT TEMPERATURE */
+.current .temp {
+    color: rgb(230, 232, 240);
+    font-size: 70px;
+    font-weight: 800;
+    margin: 30px 0;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* CURRENT TEMPERATURE DEGREES SIGN */
+.current .temp span {
+    font-weight: 700;
+}
+
+/* CURRENT WEATHER TEXT */
+.current .weather {
+    color: rgba(230, 232, 240, 0.8); 
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* HIGH LOW TEXT */
+.current .hi-low {
+    color: rgba(230, 232, 240, 0.8); 
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

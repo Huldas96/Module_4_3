@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <!--Here starts the app wrapper-->
+    <div class="app-wrapper">
+
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
+        </header>
+
+        <main>
+
+            <!--LOCATION START-->
+            <section class="location">
+                <div class="city">Reykjavík, Iceland</div>
+                <div class="date">Friday 06 November 2020</div>
+            </section>
+            <!--LOCATION END-->
+
+            <!--WEATHER INFORMATION START-->
+            <div class="current">
+                <div class="temp">5
+                    <span>°C</span>
+                </div>
+                <div class="weather">Cloudy</div>
+                <div class="hi-low">1°C / 5°C</div>
+            </div>
+            <!--WEATHER INFORMATION END-->
+
+        </main>
+    </div>
+    <!--Here ends the app wrapper-->
+
+    <script src="main.js"></script>
+</body>
+</html>
